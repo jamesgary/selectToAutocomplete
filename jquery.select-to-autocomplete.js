@@ -244,7 +244,7 @@ THE SOFTWARE.
       }
       // jQuery UI autocomplete settings & behavior
       context.$text_field.autocomplete({
-        'minLength': 0,
+        'minLength': 1,
         'delay': 0,
         'autoFocus': true,
         source: function( request, response ) {
